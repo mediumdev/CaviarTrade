@@ -1,0 +1,297 @@
+body
+{
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 0px;
+}
+
+.wrap
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.wrap2
+{
+	float: bottom;
+	width: 1024px;
+	height: auto;
+	min-height: 482px !important;
+	background:url(../img/wrap.png) repeat-y;
+}
+
+.head
+{
+	float: bottom;
+	width: 1024px;
+	height: 383px;
+	background:url(../img/head.png) no-repeat center;
+}
+
+.gold
+{
+	float: bottom;
+	width: 220px;
+	height: 40px;
+	padding-top:180px;
+	padding-left: 804px;
+}
+
+.menu
+{
+	float: bottom;
+	width: 1024px;
+	height: 40px;
+	padding-top:70px;
+}
+
+.menu_button
+{
+	float: left;
+	width: 78px;
+	height: 20px;
+}
+
+.menu_button:hover
+{
+	text-decoration:underline;
+}
+
+.content_wrap
+{
+	float: bottom;
+	width: 1024px;
+	height: auto;
+	min-height: 500px !important;
+}
+
+.left
+{
+	position:relative;
+	width: 226px;
+	height: 308px;
+}
+
+.wnd_top
+{
+	float: bottom;
+	width: 227px;
+	height: 24px;
+	padding-top: 8px;
+	color: #FFF;
+	font-weight: bold;
+	background: url(../img/wnd_top.png) no-repeat center;
+}
+
+.wnd_center
+{
+	float: bottom;
+	width: 207px;
+	height: auto;
+	font-size: 12px;
+	min-height: 10px !important;
+	padding: 5px 10px 5px 10px;
+	background: url(../img/wnd_center.png) repeat-y center;
+}
+
+.wnd_bottom
+{
+	float: bottom;
+	width: 227px;
+	height: 12px;
+	background: url(../img/wnd_bottom.png) no-repeat center;
+}
+
+.wnd_space
+{
+	float: bottom;
+	width: 226px;
+	height: 11px;
+}
+
+.link_login
+{
+	text-decoration: none;
+	color: #FF6600;
+	cursor:pointer;
+}
+
+.link_login:hover
+{
+	text-decoration: underline;
+	color: #FF6600;
+}
+
+.wnd_button
+{
+	display:block;
+	width: 205px;
+	height: 50px;
+	text-decoration:none;
+	background:url(../img/button_usermenu.png) no-repeat top;
+	cursor:pointer;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+.wnd_button:hover
+{
+	text-decoration:underline;
+	background:url(../img/button_usermenu.png) no-repeat center;
+}
+
+.wnd_button:active
+{
+	background:url(../img/button_usermenu.png) no-repeat bottom;
+}
+
+.admin_button
+{
+	display:block;
+	width: 205px;
+	height: 50px;
+	text-decoration:none;
+	background:url(../img/orange_button.png) no-repeat top;
+	cursor:pointer;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+.admin_button:hover
+{
+	text-decoration:underline;
+	background:url(../img/orange_button.png) no-repeat center;
+}
+
+.admin_button:active
+{
+	background:url(../img/orange_button.png) no-repeat bottom;
+}
+
+.buy_button
+{
+	display:block;
+	width: 120px;
+	height: 20px;
+	text-decoration:none;
+	background:url(../img/button_buy.png) no-repeat top;
+	cursor:pointer;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:14px;
+	padding:5px;
+	text-align:center;
+}
+
+.buy_button:hover
+{
+	text-decoration:underline;
+	background:url(../img/button_buy.png) no-repeat center;
+}
+
+.buy_button:active
+{
+	background:url(../img/button_buy.png) no-repeat bottom;
+}
+
+.wnd_button_img
+{
+	float:left;
+	width:50px;
+	height: 50px;
+}
+
+.wnd_button_text
+{
+	float:left;
+	width:150px;
+	height: 18px;
+	padding: 16px 0px 16px 0px;
+	color: black;
+}
+
+.check_button
+{
+	display:block;
+	width: 205px;
+	height: 50px;
+	text-decoration:none;
+	background:url(../img/button_usermenu.png) no-repeat top;
+	cursor:pointer;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+.check_button:hover
+{
+	text-decoration:underline;
+	background:url(../img/button_usermenu.png) no-repeat center;
+}
+
+.check_button:active
+{
+	background:url(../img/button_usermenu.png) no-repeat bottom;
+}
+
+.check_button_text
+{
+	float: bottom;
+	width: 205px;
+	height: 20px;
+	padding-top: 15px;
+	font-weight: bold;
+}
+
+.content
+{
+	float: bottom;
+	margin-left: 240px;
+	width: 642px;
+	height: auto;
+	margin-top: -308px;
+	padding: 0px 44px 20px 44px;
+	min-height:500px !important;
+}
+
+.list_top
+{
+	float: bottom;
+	width: 642px;
+	height: 11px;
+	background:url(../img/list_top.png) no-repeat center;
+}
+
+.list_content
+{
+	float: bottom;
+	width: 572px;
+	height: auto;
+	padding: 4px 35px 5px 35px;
+	background:url(../img/list_center.png) repeat-y center;
+}
+
+.list_bottom
+{
+	float: bottom;
+	width: 642px;
+	height: 38px;
+	background:url(../img/list_bottom.png) no-repeat center;
+}
+
+.futer
+{
+	float: bottom;
+	width: 1024px;
+	height: 99px;
+	background:url(../img/futer.png) no-repeat center;
+}
+
+.copyright
+{
+	float: bottom;
+	width: 200px;
+	height: 40px;
+	padding-left: 100px;
+	padding-top: 15px;
+	color: white;
+}

@@ -1,0 +1,1 @@
+<strong><font color="#FF3300">Нужно войти в аккаунт или <a href='../index.php?page=registration' class='link_login'><font color='#FF6600'>зарегистрироваться</font></a>.</font></strong><br/><br/>
